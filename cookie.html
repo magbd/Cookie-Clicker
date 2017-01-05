@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CookieClicker</title>
+
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Ubuntu" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="cookie.css">
+</head>
+<body>
+	<div class="container">
+
+		<div id="screen">
+
+			<h1>CookieClicker Bakery</h1>
+
+			<button id="cookie">
+				<img src="img/cookies.svg">
+			</button>
+
+			<div class="affichage">
+				<div id="affichage"></div>
+				<p>cookies</p>
+			</div>
+
+
+		</div>
+
+		<!-- BONUS -->
+		<div id="screen">
+
+			<h2>bonus store</h2>
+
+			<div id="bonus">
+
+				<button id="multi">
+					<img src="img/rolling-pin.svg">
+				</button>
+				<div id="compteurs">
+					<div>BONUS MULTI x <span id="compteur_multi"></span></div>
+					<div class="cout"><img src="img/cookies.svg">Prix du prochain multiplicateur : <span id="cout_multi"></span></div>
+					<div class="total"><span id="total_multi"></span></div>
+				</div>
+			</div>
+
+			<div id="bonus">
+
+				<button id="auto">
+					<img src="img/machinery.svg">
+				</button>
+				<div id="compteurs">
+					<div>BONUS FABRIQUE x <span id="compteur_auto"></span></div>
+					<div class="cout"><img src="img/cookies.svg">Prix de la prochaine fabrique : <span id="cout_auto" ></span></div>
+					<div class="total"><span id="total_auto"></span></div>
+				</div>
+				<!-- <div id="total_auto"></div> -->
+			</div>
+
+		</div>
+
+
+	</div>
+	<!-- +++++++++++++++++++++++++++++++ -->
+	<!-- Javascript -->
+	<!-- +++++++++++++++++++++++++++++++ -->
+	<script type="text/javascript" src="cookie.js"></script>
+
+</body>
+
+</html>

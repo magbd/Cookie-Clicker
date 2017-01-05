@@ -1,0 +1,178 @@
+@font-face {
+	font-family: 'kg_a_little_swagregular';
+	src: url('fonts/kgroyals/kgalittleswag-webfont.woff2') format('woff2'),
+	url('fonts/kgalittles/kgalittleswag-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kg_royalsregular';
+    src: url('fonts/kgroyals/kgroyals-webfont.woff2') format('woff2'),
+         url('fonts/kgroyals/kgroyals-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	margin: auto 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	/*text-align: center;*/
+	background-image: url(img/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #FDD692;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	width: 80%;
+	/*margin: auto 0;*/
+}
+
+h2, h1 {
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	color: #754F44;
+}
+
+h2 {
+	font-family: 'kg_a_little_swagregular';
+	font-size: 5em;
+	margin: 0 0 10px 0;
+	line-height: 55px;
+	color: #AF4034;
+}
+
+#screen {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#screen:first-child {
+
+}
+
+#screen:last-child {
+	border-top: solid 2px #AF4034;
+	width: 400px;
+	}
+
+	/*BOUTON COOKIE +++++++++++++++++*/
+	#cookie {
+		height: 300px; 
+		width: 300px;
+		border: none;
+		cursor: pointer;
+		/*margin: 10px 0;*/
+		background-color: transparent;
+
+	}
+
+/*#cookie:active {
+	height: 280px;
+	width: 280px;
+	}*/
+
+	#cookie img {
+		width: 100%;
+	}
+
+
+	/*SCORE ++++++++++++++++++++++++++*/
+	.affichage {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 70px;
+		width: 400px;
+		color: #754F44; /*marron*/
+		background-color: rgba(251,255,185, .5);
+		text-align: center;
+
+	}
+
+	.affichage p {
+		font-size: 0.8em;
+		margin: 0;
+	}
+
+	#affichage {
+		font-size: 2em;		
+	}
+
+	/*/////////////////////////////////////*/
+
+	/*BONUS +++++++++++++++++++++++++*/
+	#bonus {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 400px;
+		height: 100px;
+		border: solid 2px #AF4034;
+		background-color: rgba(251,255,185, .5);
+		margin: 5px;
+		color: #AF4034;
+	}
+
+	#bonus img {
+		/*margin-right: 20px;*/
+	}
+
+	#compteurs {
+		display: flex;
+		flex-direction: column;
+		padding-left: 20px;
+	}
+
+	.cout {
+		font-size: 0.8em;
+		line-height: 15px;
+	}
+
+	.cout img {
+		width: 12px;
+		height: 12px;
+		margin: 0 5px 0 0;
+	}
+
+	.total {
+		color: #F1404B;
+		font-size: 2em;
+		text-align: right;
+		margin-top: 5px;
+	}
+
+
+/*	.cout img {
+		width: 20px;
+		height: 20px;
+	}*/
+
+
+	#multi, #auto {
+		width: 80px;
+		height: 80px;
+		border: none;
+		cursor: pointer;
+		background-color: transparent;
+	}
